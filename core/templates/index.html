@@ -1,0 +1,58 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>Index</title>  
+</head>  
+<body>  
+    <h1>ARC Info</h1>
+<form method="POST" class="post-form" enctype="multipart/form-data">  
+        {% csrf_token %}  
+        {{ form.as_p }} 
+        <h1>Address Location Info</h1>
+        {{ corm.as_p }} 
+        <h1>Financial Info</h1> 
+        {{ forn.as_p }} 
+        <h1>Workforce Info</h1>
+        {{ worm.as_p }} 
+        <h1>Workforce Info</h1>
+        {{ rorm.as_p }} 
+        <h1>Equipement Info</h1>
+        {{ qorm.as_p }} 
+        <button type="submit" class="save btn btn-default">Save</button>  
+    </form>
+<!--     
+    <form method="POST" class="post-form">  
+            {% csrf_token %}  
+            {{ corm.as_p }}  
+            <button type="submit" class="save btn btn-default">Save</button>  
+        </form> 
+        
+        
+        <form method="POST" class="post-form">  
+                {% csrf_token %}  
+                {{ forn.as_p }}  
+                <button type="submit" class="save btn btn-default">Save</button>  
+            </form> 
+
+            
+        <form method="POST" class="post-form">  
+                {% csrf_token %}  
+                {{ worm.as_p }}  
+                <button type="submit" class="save btn btn-default">Save</button>  
+            </form> 
+
+            
+            <form method="POST" class="post-form">  
+                    {% csrf_token %}  
+                    {{ rorm.as_p }}  
+                    <button type="submit" class="save btn btn-default">Save</button>  
+                </form> 
+                
+                <form method="POST" class="post-form">  
+                        {% csrf_token %}  
+                        {{ qorm.as_p }}  
+                        <button type="submit" class="save btn btn-default">Save</button>   -->
+                    <!-- </form>  -->
+</body>  
+</html> 
